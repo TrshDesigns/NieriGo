@@ -15,5 +15,10 @@ body::-webkit-scrollbar{
     width:10px;
 }
 .jumbotron{
-  height:100vh;
+  height:80vh;
+  margin:10px;
+}
+footer{
+  background-color:white;
+  border-radius:10px;
 }
