@@ -35,9 +35,10 @@ body::-webkit-scrollbar-thumb{
   border-radius:10px;
 }
 .jumbotron{
-  height:80vh;
+  height:90vh;
   margin:100px 10px 10px 10px;
   border-radius: 10px;
+  background:white;
 }
 .navbar-toggler-icon{
   border:solid 3px black;
