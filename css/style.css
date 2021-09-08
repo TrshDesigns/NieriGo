@@ -1,3 +1,12 @@
+:root{
+  /*define variables for the colors using this website colors https://nieri.uy/*/
+  --color-primary: #f3fb2f;
+  --color-secondary: #0EA278;
+}
+html{
+  margin:0px;
+  padding:0px;
+}
 body {
   background: url("/resources/NIERIVALOR\ 3000\ X\ 3000.png");
   background-size: cover;
@@ -9,16 +18,67 @@ body {
 }
 .navbar {
   border-radius: 10px;
-  margin: 5px;
+  border:solid black 3px;
+  /*position the navbar center using flex*/
+
 }
 body::-webkit-scrollbar{
     width:10px;
 }
 .jumbotron{
   height:80vh;
-  margin:10px;
+  margin:100px 10px 10px 10px;
+  border-radius: 10px;
 }
 footer{
   background-color:white;
   border-radius:10px;
+}
+.disabled{
+  background-color:var(--color-secondary);
+  border-radius:10px;
+  color:white;
+  font-size:15px;
+  padding:10px;
+  margin:10px;
+}
+/*select all the elements .nav-link that does not have the .disable selector*/
+.nav-link:not(.disabled){
+  background-color:var(--color-primary);
+  border-radius:10px;
+  color:black;
+  font-size:15px;
+  margin:10px;
+}
+.nav-link{
+  width:150px;
+  text-align:center;
+  border:solid black 3px;
+}
+.nav-link:hover{
+  border:solid 3px black;
+  position:relative;
+}
+.navbar{
+  position:fixed;
+  display:flex;
+  width:100%;
+  transition:all 1s ease-in-out;
+  z-index:10;
+}
+.navbar-collapse{
+  justify-content:center;
+  justify-items: center;
+  display:flex;
+  flex-direction:row;
+  color:black;
+}
+.navbar-toggler{
+  color:black;
+}
+html{
+  margin:0px;
+}
+html::-webkit-scrollbar{
+  width:0px;
 }
