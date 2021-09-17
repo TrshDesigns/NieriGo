@@ -2,12 +2,16 @@
 <html>
   <head>
     <title>Instascan</title>
-    <script type="text/javascript" src="instascan.min.js"></script>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!--add mobile responsive tag-->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script type="text/javascript" src="/js/instascan.min.js"></script>
   </head>
   <body>
     <video id="preview"></video>
     <script type="text/javascript">
-      let scanner = new Instascan.Scanner({ video: document.getElementById('preview') });
+      let scanner = new Instascan.Scanner({ video: document.getElementById('preview'), continuous: true, mirror: false, backgroundScan: false });
       scanner.addListener('scan', function (content) {
         console.log(content);
       });
