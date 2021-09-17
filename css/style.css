@@ -103,3 +103,11 @@ html{
 html::-webkit-scrollbar{
   width:0px;
 }
+canvas{
+  width:100%;
+  height:100%;
+}
+video{
+  width:100%;
+  height:100%;
+}
