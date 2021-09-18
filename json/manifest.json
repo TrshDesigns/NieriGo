@@ -1,0 +1,22 @@
+{
+    "name": "NieriGo",
+    "short_name": "Glossary",
+    "start_url": "https://brave-pasteur-e0b08c.netlify.app/",
+    "icons":[
+      {
+        "src": "/resources/icons/manifest-icon-192.png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "/resources/icons/manifest-icon-512.png",
+        "sizes": "512x512"
+      }
+    ]
+    ,"theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "display": "fullscreen",
+    "orientation": "any"
+    }
+    
+    
+    
