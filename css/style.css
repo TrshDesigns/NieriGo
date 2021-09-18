@@ -1,7 +1,7 @@
 :root{
   /*define variables for the colors using this website colors https://nieri.uy/*/
   --color-primary: #f3fb2f;
-  --color-secondary: #0EA278;
+  --color-secondary: #22A279;
 }
 html{
   margin:0px;
@@ -19,8 +19,6 @@ body {
 .navbar {
   border-radius: 10px;
   border:solid black 3px;
-  /*position the navbar center using flex*/
-
 }
 body::-webkit-scrollbar{
   width: 10px;
