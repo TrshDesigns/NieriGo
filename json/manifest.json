@@ -14,8 +14,10 @@
     ]
     ,"theme_color": "#22A279",
     "background_color": "#22A279",
-    "display": "fullscreen",
-    "orientation": "any"
+    "display": "standalone",
+    "orientation": "any",
+    "description": "NieriGo Descubre Nuevos Lugares y Resuleve misterios",
+    "scope": "/"
     }
     
     
