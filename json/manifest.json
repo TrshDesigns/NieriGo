@@ -4,11 +4,11 @@
     "start_url": "https://brave-pasteur-e0b08c.netlify.app/",
     "icons":[
       {
-        "src": "resources/icons/NieriGo 512.png",
+        "src": "resources/icons/NieriGo512.png",
         "sizes": "512x512"
       },
       {
-        "src": "resources/icons/NieriGo 192.png",
+        "src": "resources/icons/NieriGo192.png",
         "sizes": "192x192"
       }
     ]
